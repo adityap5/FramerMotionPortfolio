@@ -9,63 +9,61 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "July 2024 - August 2024",
+    role: "Web Developer Intern",
+    company: "The Sparks Foundation",
+    description: `Designed and developed a basic Banking system that allowed users to transfer money between accounts and view their transaction history, using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases.`,
+    technologies: ["React.js","Node.js","Express.js","mongoDB","Tailwind CSS"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    year: "June 2024 - July 2024",
+    role: "Software Developer Intern",
+    company: "GrapplTech",
+    description: `Designed and developed reuseable component and template for web applications using React.js and Tailwind CSS. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["React.js", "Tailwind CSS"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "FlatBase",
+    link: "https://github.com/adityap5/FlatBase",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed a seamless platform for booking accommodations based on location & price. User registration/login using JWT and bcrypt, role assignment, property listings with image uploads by using Multer and Cloudinary and flat search by location. ",
+    technologies: ["React.js", "Node.js", "Express.js","MongoDB Atlas" , "Tailwind CSS","Redux"],
   },
   {
-    title: "Task Management App",
+    title: "CineVerse",
+    link: "https://cineverse-ap.netlify.app/",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      " Developed a platform using React JS for users to search for movies and TV shows by name. Designed dedicated pages with content organized by genres, refined searches by genres, popularity, and ratings. Utilized Redux-toolkit to efficiently manage state, reducing API calls by caching data, improving the user experience",
+    technologies: ["React.js", "Redux-Toolkit" ,"SCSS", "API Integration"],
   },
   {
-    title: "Portfolio Website",
+    title: "RECOMMERCE",
+    link: "https://recommerce-ap.netlify.app",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed a E-commerce platform and Integrated with Fake Store API for a wide range of products. Designed User-friendly navigation and efficient cart management. Sleek and modern design for a seamless shopping experience.",
+    technologies: ["React.js", "Redux Toolkit", "Tailwind CSS", "API Integration"]
   },
   {
-    title: "Blogging Platform",
+    title: "BlogAPI",
+    link: "https://github.com/adityap5/blog-API",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a RESTful API for a blogging platform designed CRUD operations for blog posts. Create user authentication and authorization using JWT and bcrypt for secure access control. Used Postman for API testing and documentation, ensuring a well-documented API for frontend integration.",
+    technologies: ["Node.js", "Express.js", "Postman", "MongoDB", "bcrypt","JWT"],
+  },
+  {
+    title: "ChatNest",
+    link: "https://github.com/adityap5/ChatNest",
+    image: project4,
+    description:
+      "Developed a seamless Real-Time communication WebApp with  Express.js for robust backend handling, and Socket.io for efficient real-time messaging, ChatNest empowers users to connect and chat instantly.",
+    technologies: ["Node.js", "Express.js", "Socket.io"],
   },
 ];
 

@@ -19,6 +19,7 @@ const Projects = () => {
                         />
                     </div>
                     <div className="w-full max-w-xl lg:3/4">
+                        <div className="flex gap-4">
                         <motion.h6
                             whileInView={{ x: 0, opacity: 1 }}
                             initial={{ x: 100, opacity: 0 }}
@@ -26,6 +27,10 @@ const Projects = () => {
                             className="mb-2 font-semibold ">
                             {project.title}
                         </motion.h6>
+                        <motion.a href={project.link} 
+                        className='font-thin text-neutral-400'
+                        target='blank'>link</motion.a>
+                        </div>
                         <motion.p
                             whileInView={{ x: 0, opacity: 1 }}
                             initial={{ x: 100, opacity: 0 }}
