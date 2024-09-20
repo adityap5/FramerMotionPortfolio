@@ -2,6 +2,7 @@ import { HERO_CONTENT } from '../constants/index';
 import { motion } from 'framer-motion';
 import profilePic from '../assets/profile.jpg';
 
+
 const container = (d) => ({
     hidden: { x: -100, opacity: 0 },
     visible: { x: 0, opacity: 1, transition: { duration: 0.5, delay: d } },
@@ -35,7 +36,15 @@ const Hero = () => {
                             className='my-2 max-w-xl py-6 font-light tracking-tighter'>
                             {HERO_CONTENT}
                         </motion.p>
-
+                        
+                    <motion.a
+                    href='https://drive.google.com/file/d/1HHIa8Xw9rDAN0MKGO6rBONHj67DWUJzd/view?usp=sharing'
+                    target='_blank'
+                     variants={container(1.3)}
+                     initial="hidden"
+                     animate='visible'
+                    className="px-4 py-2  rounded-2xl from-green-300 bg-slate-800 hover:text-black hover:bg-slate-600">
+                        Hire Me</motion.a>
                     </div>
                 </div>
                 <div className='w-full lg:w-1/2 lg:p-8'>

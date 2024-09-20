@@ -12,10 +12,13 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex m-8 items-center justify-center gap-4 text-2xl cursor-pointer">
-        <FaLinkedin />
-        <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram />
+       <a href="https://www.linkedin.com/in/adityapippal/" target="_blank"> <FaLinkedin /></a>
+       <a href="https://github.com/adityap5" target="_blank">  <FaGithub /></a>
+       <a href="https://www.x.com/imaditya_29/" target="_blank"> <FaSquareXTwitter /></a>
+       <a href="https://www.instagram.com/imaditya_29/" target="_blank">    <FaInstagram /></a>
+       
+        
+     
       </div>
     </nav>
   )

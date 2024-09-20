@@ -27,7 +27,11 @@ const Projects = () => {
                             className="mb-2 font-semibold ">
                             {project.title}
                         </motion.h6>
-                        <motion.a href={project.link} 
+                        <motion.a
+                         whileInView={{ x: 0, opacity: 1 }}
+                         initial={{ x: 100, opacity: 0 }}
+                         transition={{ duration: 0.6 }}
+                        href={project.link} 
                         className='font-thin text-neutral-400'
                         target='blank'>link</motion.a>
                         </div>

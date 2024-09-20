@@ -27,7 +27,12 @@ const Education = () => {
                 className="mb-2 font-semibold ">
                 {experience.company}
               </motion.h6>
-              <motion.p className="text-neutral-400">{experience.location}</motion.p>
+              <motion.p 
+              whileInView={{ x: 0, opacity: 1 }}
+              initial={{ x: 100, opacity: 0 }}
+
+              transition={{ duration: 0.7 }}
+              className="text-neutral-400">{experience.location}</motion.p>
             </div>
           </div>
         ))}
