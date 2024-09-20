@@ -67,6 +67,18 @@ export const PROJECTS = [
   },
 ];
 
+export const EDUCATION = [
+  {
+    year: "2021 - 2025",
+    company: "University Institute of Engineering and Technology, Panjab University",
+    location : "Chandigarh"
+  },
+  {
+    year: "2018 - 2019",
+    company: "Bhartiya VidyaPeeth Bal Bharti",
+      location : "Agra"
+  },
+]
 export const CONTACT = {
   address: "Boys Hostel-4 Panjab University, Sector-14 ",
   phoneNo: "+91-8859839210",
